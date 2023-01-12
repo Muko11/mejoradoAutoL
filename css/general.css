@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Iconos */
+
+.iconos-menu,
+.iconos {
+    width: 50px;
+    height: 50px;
+}
+
+/* Botones */
+
+.boton {
+    background-color: #5499C7;
+    color: white;
+    text-decoration: none;
+    padding: 12px 36px;
+    border: 0;
+}
+
+.boton:hover {
+    background-color: #2874A6;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Nav */
+
+.nav-link,
+.enlace-footer {
+    color: white;
+}
+
+.nav-link:hover,
+.enlace-footer:hover {
+    text-decoration: underline;
+    color: #5499C7;
+}
+
+.nav-link:focus {
+    text-decoration: underline;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-menu {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Footer */
+
+.enlace-footer {
+    text-decoration: none;
+}
+
+.enlace-footer:hover {
+    text-decoration: underline;
+}
+
+.enlace-footer:focus {
+    text-decoration: underline;
+}
+
+.redes:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+/* Medias */
+
+@media (max-width: 992px) {
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contenido-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .toogle-logo,
+    .toogle-contenido,
+    .toogle-usuario {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 890px) {
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 706px) {
+
+    .contenido-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

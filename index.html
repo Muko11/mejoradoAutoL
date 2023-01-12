@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoL</title>
+    <link rel="icon" type="image/png" href="imagenes/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <!-- Nav -->
+
+    <div class="container-fluid g-0 mb-5">
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img class="iconos-menu" src="imagenes/toogle.png" alt="Toogle">
+                </button>
+
+                <div class="menu collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item toogle-logo">
+                            <a class="nav-link" href="#"><img class="iconos-menu" src="imagenes/logo.png"
+                                    alt="Logo"></a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <div class="contenido-menu toogle-contenido">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#servicios">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#oportunidades">Soy autoescuela</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#oportunidades">Soy profesor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#oportunidades">Soy alumno</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item  toogle-usuario">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalRegistro"><img
+                                    class="iconos-menu" src="imagenes/usuario.png" alt="Usuario"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- Portada -->
+    <section class="d-flex justify-content-center align-items-center portada">
+        <div class="container position-relative">
+            <h1>Organiza tu autoescuela</h1>
+            <h2>Software para la gestión de autoescuelas. ¡Comienza ahora!</h2>
+            <br>
+            <a href="#oportunidades" class="boton">Comenzar</a>
+        </div>
+    </section>
+
+    <!-- Carousel -->
+
+    <!-- <div class="container-fluid g-0">
+        <div id="carousel-oportunidades"class="carousel slide"data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/slide1.jpg"class="d-block w-100"alt="Agenda para organizar">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/slide2.jpg"class="d-block w-100"alt="Interiores del hotel">
+                </div>
+            </div>
+            <button class="carousel-control-prev"type="button"data-bs-target="#carousel-oportunidades"
+                data-bs-slide="prev">
+                <img class="iconos"src="imagenes/prev.png"alt="Previo">
+            </button>
+            <button class="carousel-control-next"type="button"data-bs-target="#carousel-oportunidades"
+                data-bs-slide="next">
+                <img class="iconos"src="imagenes/next.png"alt="Siguiente">
+            </button>
+        </div>
+    </div> -->
+
+
+    <!-- Servicios -->
+
+    <div id="servicios" class="mb-3"></div>
+
+    <div class="container pt-5 pb-5">
+        <h3 class="text-center mt-3 mb-5">NUESTROS SERVICIOS</h3>
+
+        <div class="row bg-light">
+            <div class="col-lg-6 shadow servicios">
+                <h4 class="fw-semibold mb-0">Sin límite de alumnos</h4>
+                <p>Cada alumno tendrá un hueco asegurado en AutoL.</p>
+                <img class="iconos m-auto" src="imagenes/alumnos.png" alt="Reservas">
+                </img>
+            </div>
+
+            <div class="col-lg-6 shadow servicios">
+                <h4 class="fw-semibold mb-0">Reservas online</h4>
+                <p>Ofrecemos la oportunidad de reservar clases prácticas desde tu hogar.</p>
+                <img class="iconos m-auto" src="imagenes/reservas.png" alt="Reservas">
+                </img>
+            </div>
+        </div>
+
+        <div class="row bg-light">
+            <div class="col-lg-6 shadow order-lg-1 servicios">
+                <h4 class="fw-semibold mb-0">Control de tests</h4>
+                <p>El alumno podrá apuntar los tests que acierta y falla, así como anotaciones.
+                </p>
+                <img class="iconos m-auto" src="imagenes/seguimiento.png" alt="Seguimientos">
+                </img>
+
+            </div>
+
+            <div class="col-lg-6 shadow order-0 servicios">
+                <h4 class="fw-semibold mb-0">Control de prácticas</h4>
+                <p>Anotan el
+                    número de prácticas que dais y el pago final.</p>
+                <img class="iconos m-auto" src="imagenes/control.png" alt="Control prácticas">
+                </img>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Tarjetas profesor, alumno, autoescuela -->
+
+    <div id="oportunidades" class="mb-3"></div>
+
+    <div class="container px-4 py-5">
+        <h3 class="text-center m-3">COMIENZA AHORA</h3>
+
+        <div class="contenedor-tarjetas">
+            <div class="row p-3">
+                <div class="col-lg-4 mt-3">
+                    <div class="tarjeta text-center text-white">
+                        <div class="card-body">
+                            <h6 class="fw-semibold text-uppercase p-3">Soy autoescuela</h6>
+                            <img class="iconos img-tarjeta" src="imagenes/autoescuela.png" alt="Autoescuela">
+                            <p class="p-3">Registra tu autoescuela y comienza ahora.</p>
+                            <div class="d-grid p-3">
+                                <a href="#" class="boton">Comenzar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="tarjeta text-center text-white">
+                        <div class="card-body">
+                            <h6 class="fw-semibold text-uppercase p-3">Soy profesor</h6>
+                            <img class="iconos img-tarjeta" src="imagenes/profesor.png" alt="Profesor">
+                            <p class="p-3">Accede a tu autoescuela como usuario profesor.</p>
+                            <div class="d-grid p-3">
+                                <a href="#" class="boton">Comenzar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="tarjeta text-center text-white">
+                        <div class="card-body">
+                            <h6 class="fw-semibold text-uppercase p-3">Soy alumno</h6>
+                            <img class="iconos img-tarjeta" src="imagenes/alumno.png" alt="Alumno">
+                            <p class="p-3">Accede a tu autoescuela como usuario alumno.</p>
+                            <div class="d-grid p-3">
+                                <a href="#" class="boton">Comenzar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor-tarjetas-carousel">
+            <div id="carousel-oportunidades" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="tarjeta text-center text-white">
+                                <div class="card-body">
+                                    <h6 class="fw-semibold text-uppercase p-3">Soy autoescuela</h6>
+                                    <img class="iconos img-tarjeta" src="imagenes/autoescuela.png" alt="Autoescuela">
+                                    <p class="p-3">Registra tu autoescuela y comienza ahora.</p>
+                                    <div class="d-grid p-3">
+                                        <a href="#" class="boton">Comenzar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="card d-none d-md-block">
+                            <div class="card-body">
+    
+                            </div>
+                        </div> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="tarjeta text-center text-white">
+                                <div class="card-body">
+                                    <h6 class="fw-semibold text-uppercase p-3">Soy profesor</h6>
+                                    <img class="iconos img-tarjeta" src="imagenes/profesor.png" alt="Profesor">
+                                    <p class="p-3">Accede a tu autoescuela como usuario profesor.</p>
+                                    <div class="d-grid p-3">
+                                        <a href="#" class="boton">Comenzar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="tarjeta text-center text-white">
+                                <div class="card-body">
+                                    <h6 class="fw-semibold text-uppercase p-3">Soy alumno</h6>
+                                    <img class="iconos img-tarjeta" src="imagenes/alumno.png" alt="Alumno">
+                                    <p class="p-3">Accede a tu autoescuela como usuario alumno.</p>
+                                    <div class="d-grid p-3">
+                                        <a href="#" class="boton">Comenzar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-oportunidades"
+                    data-bs-slide="prev">
+                    <img class="iconos" src="imagenes/prev.png" alt="Previo">
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-oportunidades"
+                    data-bs-slide="next">
+                    <img class="iconos" src="imagenes/next.png" alt="Siguiente">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="contacto" class="mb-2"></div>
+
+
+    <!-- Contacto -->
+
+    <div class="container mb-5">
+        <h3 class="text-center m-5 titulos">CONTÁCTANOS</h3>
+        <form class="formulario-contacto">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="contactoNombre" placeholder="Nombre">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="contactoEmail" placeholder="Correo electrónico">
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="contactoAsunto" placeholder="Asunto">
+            </div>
+
+            <div class="mb-3">
+                <textarea class="form-control" id="contactoMensaje" rows="5"
+                    placeholder="Escribe tu mensaje..."></textarea>
+            </div>
+
+            <div class="d-flex justify-content-center mb-3">
+                <input class="boton" type="button" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="text-center text-white bg-dark">
+        <div class="container-fluid">
+            <section class="mt-5">
+                <div class="row text-center d-flex justify-content-center align-items-center pt-5">
+                    <div class="col-md-2">
+                        <h6>
+                            <a href="#" class="enlace-footer">Política de datos</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6>
+                            <a href="#" class="enlace-footer">Política de cookies</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6>
+                            <a href="#contacto" class="enlace-footer">Contacto</a>
+                        </h6>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-4" />
+
+            <section class="mb-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <h3>AutoL</h3>
+                        <p class="lead">Organiza tu autoescuela de forma sencilla, rápida y fácil</p>
+                        <a class="navbar-brand" href="#"><img class="iconos" src="imagenes/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center mb-5">
+                <div class="redes">
+                    <a href="#" style="text-decoration: none;">
+                        <img class="iconos" src="imagenes/twitter.png">
+                    </a>
+                    <a href="#" style="text-decoration: none">
+                        <img class="iconos" src="imagenes/facebook.png">
+                    </a>
+                    <a href="#" style="text-decoration: none">
+                        <img class="iconos" src="imagenes/youtube.png">
+                    </a>
+                    <a href="#" style="text-decoration: none">
+                        <img class="iconos" src="imagenes/linkedin.png">
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            &copy; 2023 Copyright - AutoL
+        </div>
+    </footer>
+
+    <!-- Modal formulario registro -->
+    <div class="modal fade" id="modalRegistro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-3">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="fs-3">Registrarse</p>
+                    <p class="text-muted">Crea una cuenta gratuita para acceder a nuestras
+                        oportunidades.</p>
+                    <form id="formulario-registro">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="registroNombre" placeholder="Nombre">
+                            <label for="registroNombre">Nombre</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="registroEmail"
+                                placeholder="nombre@ejemplo.com">
+                            <label for="registroEmail">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="registroPassword" placeholder="Contraeña">
+                            <label for="registroPassword">Contraseña</label>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <input id="registroUsuario" class="boton" type="submit" value="Registrarse">
+                        </div>
+                    </form>
+                    <a href="#">
+                        Política de datos
+                    </a>
+                    <p></p>
+                    <a href="#">
+                        Política de cookies
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
