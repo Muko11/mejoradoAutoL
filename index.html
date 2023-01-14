@@ -39,7 +39,7 @@
                         <img class="iconos-menu" src="imagenes/toogle.png" alt="Toogle">
                     </button>
 
-                    <div class="menu collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="menu menu-grid collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item toogle-logo">
                                 <a class="nav-link" href="#"><img class="iconos-menu" src="imagenes/logo.png"
@@ -73,6 +73,8 @@
                                             data-bs-target="#modalInicioSesion">Iniciar sesión</a></li>
                                     <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
                                             data-bs-target="#modalRegistro">Crear cuenta</a></li>
+                                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                            data-bs-target="#modalCerrarSesion">Cerrar sesión</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -131,7 +133,7 @@
             </div>
 
             <div class="row bg-light">
-                <div class="col-lg-6 shadow order-lg-1 servicios">
+                <div class="col-lg-6 shadow servicios">
                     <h4 class="fw-semibold mb-0">Control de tests</h4>
                     <p>El alumno podrá apuntar los tests que acierta y falla, así como anotaciones.
                     </p>
@@ -140,7 +142,7 @@
 
                 </div>
 
-                <div class="col-lg-6 shadow order-0 servicios">
+                <div class="col-lg-6 shadow servicios">
                     <h4 class="fw-semibold mb-0">Control de prácticas</h4>
                     <p>Anotan el
                         número de prácticas que dais y el pago final.</p>
@@ -155,9 +157,9 @@
 
         <!-- Tarjetas profesor, alumno, autoescuela -->
 
-        <div class="mb-3"></div>
+        <div id="oportunidades"  class="mb-3"></div>
 
-        <div id="oportunidades" class="container px-4 py-5">
+        <div class="container px-4 py-5">
             <h3 class="text-center m-3">OPORTUNIDADES</h3>
 
             <div class="contenedor-tarjetas">
@@ -195,8 +197,8 @@
                                 <img class="iconos img-tarjeta" src="imagenes/alumno.png" alt="Alumno">
                                 <p class="p-3">Accede a tu autoescuela como usuario alumno.</p>
                                 <div class="d-grid p-3">
-                                    <button href="#" class="boton" data-bs-toggle="modal"
-                                        data-bs-target="#modalAlumno" disabled>Comenzar</button>
+                                    <button href="#" class="boton" data-bs-toggle="modal" data-bs-target="#modalAlumno"
+                                        disabled>Comenzar</button>
                                 </div>
                             </div>
                         </div>
@@ -303,7 +305,7 @@
                 </div>
 
                 <div class="d-flex justify-content-center mb-3">
-                    <input class="boton" type="button" value="Enviar">
+                    <input class="boton" type="submit" value="Enviar">
                 </div>
             </form>
         </div>
@@ -333,7 +335,7 @@
             <div class="mb-5">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
-                        <h3>AutoL</h3>
+                        <h4>AutoL</h4>
                         <p class="lead">Organiza tu autoescuela de forma sencilla, rápida y fácil</p>
                         <a class="navbar-brand" href="#"><img class="iconos" src="imagenes/logo.png" alt="logo"></a>
                     </div>
@@ -383,7 +385,7 @@
                             <label for="loginPassword">Contraseña</label>
                         </div>
                         <div class="d-flex justify-content-center mb-3">
-                            <input id="submitLogin" class="boton" type="submit" value="Registrarse">
+                            <input id="submitLogin" class="boton" type="submit" value="Iniciar sesión">
                         </div>
                     </form>
                 </div>
@@ -449,7 +451,23 @@
     </div>
 
 
-
+    <!-- Modal Login -->
+    <div class="modal fade" id="modalCerrarSesion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-3">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="fs-3">Cerrar sesión</p>
+                    <p class="text-muted">Podrás volver a iniciar sesión con tu nombre de usuario y contraseña</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <button id="botonCerrarSesion" class="boton">Cerrar sesión</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Modal Soy autoescuela -->

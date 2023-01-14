@@ -32,7 +32,6 @@
     color: white;
 }
 
-
 .menu {
     display: flex;
     justify-content: space-around;
@@ -72,15 +71,6 @@ a.dropdown-item:active {
 }
 
 @media (max-width: 992px) {
-    .menu {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .contenido-menu {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 
     .toogle-logo,
     .toogle-contenido,
@@ -89,12 +79,26 @@ a.dropdown-item:active {
         justify-content: center;
     }
 
+    .menu,
+    .contenido-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .menu-grid {
+        display: flex;
+        justify-content: space-around;
+    }
+
     .navbar-nav .contenido-menu .nav-link.active {
         padding: 10px;
     }
+
 }
 
-@media (max-width: 830px) {
+@media (max-width: 500px) {
 
     .menu,
     .contenido-menu {
@@ -103,6 +107,7 @@ a.dropdown-item:active {
         margin: 0 auto;
         text-align: center;
     }
+
 }
 
 /* Footer */
@@ -115,6 +120,12 @@ a.dropdown-item:active {
     transition: 0.5s;
     transform: scale(1.1);
 }
+
+/* Títulos */
+h3 {
+    color: #2874A6;
+}
+
 
 /* Iconos */
 
