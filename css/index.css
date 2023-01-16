@@ -127,10 +127,6 @@
     display: none;
 }
 
-.card-body .boton:disabled {
-    background-color: lightslategray;
-}
-
 @media (max-width: 992px) {
     .tarjeta {
         display: grid;

@@ -25,7 +25,7 @@
 
 .nav-link:hover,
 .enlace-footer:hover {
-    color: #5499C7;
+    color: lightsalmon;
 }
 
 .nav-link:focus {
@@ -66,8 +66,8 @@ a.dropdown-item:active {
 }
 
 .dropdown-item:hover {
-    color: #2874A6;
-    background-color: none;
+    color: lightsalmon;
+    background-color: transparent;
 }
 
 @media (max-width: 992px) {
@@ -116,11 +116,6 @@ a.dropdown-item:active {
     text-decoration: none;
 }
 
-.redes:hover {
-    transition: 0.5s;
-    transform: scale(1.1);
-}
-
 /* Títulos */
 h3 {
     color: #2874A6;
@@ -133,6 +128,11 @@ h3 {
 .iconos {
     width: 50px;
     height: 50px;
+}
+
+.iconos-tabla {
+    width: 30px;
+    height: 30px;
 }
 
 /* Botones */

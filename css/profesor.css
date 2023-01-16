@@ -1,0 +1,35 @@
+@import url(general.css);
+
+/* Menú lateral */
+
+.aside {
+    padding: 10px;
+}
+
+.nav-tabs .nav-link {
+    text-align: center;
+    color: black;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: #5499C7;
+    border: 0;
+}
+
+.nav-link:hover {
+    transition: none;
+}
+
+/* Tablas */
+
+table {
+    border-collapse: separate;
+    border: 5px solid black;
+}
+
+table th,
+table tr {
+    vertical-align: middle;
+    width: 25%;
+}
