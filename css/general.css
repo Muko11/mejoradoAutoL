@@ -7,9 +7,9 @@
 
 /* Nav */
 
-.navbar {
+/* .navbar {
     background: rgba(65, 68, 66, 0.9);
-}
+} */
 
 .nav-link,
 .enlace-footer {
@@ -51,17 +51,17 @@
     box-shadow: none;
 }
 
-.dropdown-menu {
+/* .dropdown-menu {
     background: rgba(65, 68, 66, 0.9);
 }
-
+ */
 .dropdown-item {
     color: white;
     font-weight: bold;
 }
 
 a.dropdown-item:active {
-    background: rgba(65, 68, 66, 0.9);
+    background: transparent;
     color: white;
 }
 

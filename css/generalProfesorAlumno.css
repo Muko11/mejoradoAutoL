@@ -1,0 +1,52 @@
+@import url(general.css);
+
+/* Margenes body y contenedor panelContenido */
+
+body {
+    margin-top: 5%;
+}
+
+.panelContenido {
+    margin-bottom: 7%;
+}
+
+/* Menú lateral */
+
+.aside {
+    padding: 10px;
+    border-left: 5px solid #5499C7;
+}
+
+.nav-tabs .nav-link {
+    text-align: center;
+    color: black;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: #5499C7;
+    border: 0;
+}
+
+.nav-link:hover {
+    transition: none;
+}
+
+/* Tablas */
+
+table {
+    border-collapse: separate;
+    border: 5px solid black;
+}
+
+table th,
+table tr {
+    vertical-align: middle;
+    width: 20%;
+    overflow: auto;
+}
+
+/* Comunicados */
+.comunicados {
+    border-left: 5px solid #5499C7;
+}

@@ -16,7 +16,7 @@
 
     <!-- Nav -->
     <div class="container-fluid g-0 mb-5">
-        <nav id="nav-scroll" class="navbar navbar-expand-lg fixed-top">
+        <nav id="nav-scroll" class="navbar navbar-expand-lg fixed-top bg-dark">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -53,7 +53,7 @@
                             <a class="navbar-brand nav-link dropdown-toggle" href="#" id="dropdownMenu"
                                 data-bs-toggle="dropdown"><img class="iconos-menu" src="imagenes/usuario.png"
                                     alt="Usuario"></a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenu">
                                 <li><a class="dropdown-item" href="profesor.html">Mi autoescuela</a></li>
                                 <li><a class="dropdown-item" href="#">Mi cuenta</a></li>
                                 <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
@@ -68,11 +68,11 @@
 
 
     <!-- Nav lateral -->
-    <div class="container-fluid">
+    <div class="container-fluid panelContenido">
         <div class="row my-3">
             <div class="col mt-5 mb-3">
                 <div>
-                    <h3 class="text-uppercase text-center">Panel de control</h3>
+                    <h3 class="text-uppercase text-center">Panel de control (vista profesor)</h3>
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
                 <div class="aside">
                     <nav>
                         <h3 class="text-center pb-3">Menú</h3>
-                        <div class="nav nav-tabs d-grid" id="nav-tab" role="tablist">
+                        <div class="nav nav-tabs d-grid border-bottom-0" id="nav-tab" role="tablist">
 
                             <a class="nav-item nav-link active" id="tab-autoescuela" data-bs-toggle="tab"
                                 data-bs-target="#nav-autoescuela" type="button" role="tab" aria-selected="true">Mi
@@ -97,6 +97,10 @@
                             <a class="nav-item nav-link" id="tab-practica" data-bs-toggle="tab"
                                 data-bs-target="#nav-practica" type="button" role="tab"
                                 aria-selected="false">Prácticas</a>
+
+                            <a class="nav-item nav-link" id="tab-comunicado" data-bs-toggle="tab"
+                                data-bs-target="#nav-comunicado" type="button" role="tab"
+                                aria-selected="false">Comunicados</a>
                         </div>
 
                     </nav>
@@ -111,7 +115,7 @@
                             <div class="tab-pane fade show active px-4" id="nav-autoescuela">
 
                                 <!-- Formulario con códigos -->
-                                <h4 class="mb-4">Códigos</h4>
+                                <h4 class="mb-4">Códigos de unión</h4>
                                 <form class="mb-5">
                                     <div class="row row-cols-1 row-cols-md-2">
                                         <div class="mb-4">
@@ -186,7 +190,7 @@
                                                 <td>Juan Luis Pérez González</td>
                                                 <td>JuanLuGonz</td>
                                                 <td><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#modalBorrar"><img class="iconos-tabla"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
                                                             src="imagenes/borrar.png" alt="Borrar"></a></td>
                                             </tr>
                                             <tr>
@@ -194,7 +198,7 @@
                                                 <td>Juan Martín</td>
                                                 <td>JuanH24</td>
                                                 <td><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#modalBorrar"><img class="iconos-tabla"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
                                                             src="imagenes/borrar.png" alt="Borrar"></a></td>
                                             </tr>
                                             <tr>
@@ -202,7 +206,7 @@
                                                 <td>Juan Pérez</td>
                                                 <td>Batman23</td>
                                                 <td><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#modalBorrar"><img class="iconos-tabla"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
                                                             src="imagenes/borrar.png" alt="Borrar"></a></td>
                                             </tr>
                                             <tr>
@@ -210,7 +214,7 @@
                                                 <td>Juan Pérez</td>
                                                 <td>Prez</td>
                                                 <td><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#modalBorrar"><img class="iconos-tabla"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
                                                             src="imagenes/borrar.png" alt="Borrar"></a></td>
                                             </tr>
                                         </tbody>
@@ -249,7 +253,7 @@
                                                 <td>Marc</td>
                                                 <td>Marc23</td>
                                                 <td><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#modalBorrar"><img class="iconos-tabla"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
                                                             src="imagenes/borrar.png" alt="Borrar"></a></td>
                                             </tr>
                                             <tr>
@@ -257,7 +261,7 @@
                                                 <td>Juan Martín López</td>
                                                 <td>JMLz</td>
                                                 <td><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#modalBorrar"><img class="iconos-tabla"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
                                                             src="imagenes/borrar.png" alt="Borrar"></a></td>
                                             </tr>
                                             <tr>
@@ -265,7 +269,7 @@
                                                 <td>Marc Rivero</td>
                                                 <td>Rivero18</td>
                                                 <td><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#modalBorrar"><img class="iconos-tabla"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
                                                             src="imagenes/borrar.png" alt="Borrar"></a></td>
                                             </tr>
                                             <tr>
@@ -273,7 +277,7 @@
                                                 <td>Juan Pérez</td>
                                                 <td>Juaannz</td>
                                                 <td><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#modalBorrar"><img class="iconos-tabla"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
                                                             src="imagenes/borrar.png" alt="Borrar"></a></td>
                                             </tr>
                                         </tbody>
@@ -283,9 +287,196 @@
 
 
 
+                            <!-- Aside - Prácticas -->
+
+                            <div class="tab-pane fade show px-4" id="nav-practica">
+                                <h4 class="mb-4">Crear una práctica</h4>
+
+                                <form class="mb-5">
+                                    <div class="row row-cols-1 row-cols-md-2">
+                                        <div class="mb-4">
+                                            <label for="fechaPractica" class="fw-bold mb-2">Fecha</label>
+                                            <input type="date" class="form-control" id="fechaPractica"
+                                                placeholder="Fecha de la práctica">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="horaPractica" class="fw-bold mb-2">Hora</label>
+                                            <input type="time" class="form-control" id="horaPractica"
+                                                placeholder="Hora de la práctica">
+                                        </div>
+                                        <div>
+                                            <input class="boton" type="submit" value="Crear práctica">
+                                        </div>
+                                    </div>
+                                </form>
+
+
+                                <h4 class="mb-4">Tabla de prácticas</h4>
+
+                                <p class="fw-bold bg-warning p-2">Recuerda que al finalizar la práctica con el alumno, deberás marcar como finalizada la práctica</p>
+
+                                <div class="table-responsive-lg">
+                                    <table class="table table-striped text-center">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Fecha</th>
+                                                <th scope="col">Hora</th>
+                                                <th scope="col">Alumno</th>
+                                                <th scope="col">Acciones</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>10/10/2010</td>
+                                                <td>10:00</td>
+                                                <td>Sin reservar</td>
+                                                <td>
+                                                    <a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#modalFinalizado"><img class="iconos-tabla"
+                                                            src="imagenes/finalizado.png" alt="Finalizado"></a>
+
+                                                    <a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#modalEditarRegistro"><img class="iconos-tabla"
+                                                            src="imagenes/editar.png" alt="Editar"></a>
+
+                                                    <a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
+                                                            src="imagenes/borrar.png" alt="Borrar"></a>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>10/10/2010</td>
+                                                <td>11:00</td>
+                                                <td>Sin reservar</td>
+                                                <td>
+                                                    <a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#modalFinalizado"><img class="iconos-tabla"
+                                                            src="imagenes/finalizado.png" alt="Finalizado"></a>
+
+
+                                                    <a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#modalEditarRegistro"><img class="iconos-tabla"
+                                                            src="imagenes/editar.png" alt="Editar"></a>
+
+                                                    <a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
+                                                            src="imagenes/borrar.png" alt="Borrar"></a>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>10/10/2010</td>
+                                                <td>12:00</td>
+                                                <td>Sin reservar</td>
+                                                <td>
+
+                                                    <a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#modalFinalizado"><img class="iconos-tabla"
+                                                            src="imagenes/finalizado.png" alt="Finalizado"></a>
+
+                                                    <a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#modalEditarRegistro"><img class="iconos-tabla"
+                                                            src="imagenes/editar.png" alt="Editar"></a>
+
+                                                    <a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#modalBorrarRegistro"><img class="iconos-tabla"
+                                                            src="imagenes/borrar.png" alt="Borrar"></a>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+
+                            </div>
 
 
 
+
+
+                            <!-- Aside - Comunicados -->
+
+                            <div class="tab-pane fade show px-4" id="nav-comunicado">
+                                <h4 class="mb-4">Crear un comunicado</h4>
+
+
+                                <form class="mb-5">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control" id="comunicadoNombre"
+                                                    placeholder="De">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control" id="comunicadoTitulo"
+                                                    placeholder="Título del comunicado">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" id="comunicadoMensaje" rows="5"
+                                            placeholder="Escribe tu comunicado..."></textarea>
+                                    </div>
+
+                                    <div>
+                                        <input class="boton" id="comunicadoSubmit" type="submit" value="Publicar">
+                                    </div>
+                                </form>
+
+
+                                <h4 class="mb-4">Lista de comunicados</h4>
+
+                                <div class="row row-cols-1">
+                                    <div class="comunicados mb-5">
+                                        <h5>Examen práctico día 30 de enero de 2023</h5>
+                                        <h6>Mari Carmen Álvarez Pérez</h6>
+                                        <p><small>20/10/2023</small></p>
+                                        <p>Os comunico que para presentaros al examen práctico debéis de realizar el
+                                            pago en la autoescuela antes del día 25 de enero de 2023. Gracias.</p>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalEditarComunicado"><img
+                                                class="iconos-tabla" src="imagenes/editar.png" alt="Editar"></a>
+
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalBorrarComunicado"><img
+                                                class="iconos-tabla" src="imagenes/borrar.png" alt="Borrar"></a>
+                                    </div>
+
+                                    <div class="comunicados mb-5">
+                                        <h5>Examen práctico día 30 de enero de 2023</h5>
+                                        <h6>Mari Carmen Álvarez Pérez</h6>
+                                        <p><small>20/10/2023</small></p>
+                                        <p>Os comunico que para presentaros al examen práctico debéis de realizar el
+                                            pago en la autoescuela antes del día 25 de enero de 2023. Gracias.</p>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalEditarComunicado"><img
+                                                class="iconos-tabla" src="imagenes/editar.png" alt="Editar"></a>
+
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalBorrarComunicado"><img
+                                                class="iconos-tabla" src="imagenes/borrar.png" alt="Borrar"></a>
+                                    </div>
+
+                                    <div class="comunicados mb-5">
+                                        <h5>Examen práctico día 30 de enero de 2023</h5>
+                                        <h6>Mari Carmen Álvarez Pérez</h6>
+                                        <p><small>20/10/2023</small></p>
+                                        <p>Os comunico que para presentaros al examen práctico debéis de realizar el
+                                            pago en la autoescuela antes del día 25 de enero de 2023. Gracias.</p>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalEditarComunicado"><img
+                                                class="iconos-tabla" src="imagenes/editar.png" alt="Editar"></a>
+
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalBorrarComunicado"><img
+                                                class="iconos-tabla" src="imagenes/borrar.png" alt="Borrar"></a>
+                                    </div>
+
+                                </div>
+
+                            </div>
 
                         </div>
                     </div>
@@ -321,7 +512,8 @@
                     <div class="col-lg-8">
                         <h4>AutoL</h4>
                         <p class="lead">Organiza tu autoescuela de forma sencilla, rápida y fácil</p>
-                        <a class="navbar-brand" href="#"><img class="iconos" src="imagenes/logo.png" alt="logo"></a>
+                        <a class="navbar-brand" href="index.html"><img class="iconos" src="imagenes/logo.png"
+                                alt="logo"></a>
                     </div>
                 </div>
             </div>
@@ -349,18 +541,70 @@
 
 
 
-    <!-- Modal Borrar -->
-    <div class="modal fade" id="modalBorrar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal Borrar Registro -->
+    <div class="modal fade" id="modalBorrarRegistro" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content p-3">
                 <div class="modal-header border-bottom-0">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-center">
-                    <p class="fs-3">Borrar integrante</p>
-                    <p class="text-muted">¿Estás seguro de borrar al integrante?</p>
+                    <p class="fs-3">Borrar registro</p>
+                    <p class="text-muted">¿Estás seguro de borrar el registro?</p>
                     <div class="d-flex justify-content-center mb-3 g-2">
-                        <button id="botonCerrarSesion" class="boton">Borrar</button>
+                        <button id="botonBorrarRegistro" class="boton">Borrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal editar registro -->
+    <div class="modal fade" id="modalEditarRegistro" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-3">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fs-3 text-center">Editar registro</p>
+                    <p class="text-muted text-center">Puedes modificar la fecha o la hora de la práctica</p>
+                    <form class="mb-3">
+                        <div class="mb-4">
+                            <label for="fechaPractica" class="fw-bold mb-2">Fecha</label>
+                            <input type="date" class="form-control" id="fechaPractica"
+                                placeholder="Fecha de la práctica" value="2010-10-10">
+                        </div>
+                        <div class="mb-4">
+                            <label for="horaPractica" class="fw-bold mb-2">Hora</label>
+                            <input type="time" class="form-control" id="horaPractica" placeholder="Hora de la práctica"
+                                value="10:10">
+                        </div>
+                    </form>
+                    <div class="d-flex justify-content-center mb-3 g-2">
+                        <button id="botonGuardarCambios" class="boton">Guardar cambios</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Finalizado -->
+    <div class="modal fade" id="modalFinalizado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-3">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="fs-3">Marcar práctica como finalizada</p>
+                    <p class="text-muted"><strong>Importante: </strong>Si marcas como finalizada la práctica el registro
+                        se borrará automáticamente y se añadirá una práctica al alumno que la ha realizado</p>
+                    <div class="d-flex justify-content-center mb-3 g-2">
+                        <button id="botonCerrarSesion" class="boton">Marcar como finalizada</button>
                     </div>
                 </div>
             </div>
@@ -369,7 +613,61 @@
 
 
 
+    <!-- Modal Borrar Comunicado -->
+    <div class="modal fade" id="modalBorrarComunicado" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-3">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="fs-3">Borrar comunicado</p>
+                    <p class="text-muted">¿Estás seguro de borrar el comunicado?</p>
+                    <div class="d-flex justify-content-center mb-3 g-2">
+                        <button id="botonBorrarComunicado" class="boton">Borrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Modal editar Comunicado -->
+    <div class="modal fade" id="modalEditarComunicado" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-3">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fs-3 text-center">Editar comunicado</p>
+                    <p class="text-muted text-center">Puedes modificar el comunicado en cualquier momento</p>
+
+                    <form class="mb-3">
+                        <div class="mb-4">
+                            <label for="comunicadoNombre" class="fw-bold mb-2">De</label>
+                            <input type="text" class="form-control" id="comunicadoNombre" placeholder="De"
+                                value="Mari Carmen Álvarez Pérez">
+                        </div>
+                        <div class="mb-4">
+                            <label for="comunicadoTitulo" class="fw-bold mb-2">Título</label>
+                            <input type="text" class="form-control" id="comunicadoTitulo"
+                                placeholder="Título del comunicado" value="Examen práctico día 30 de enero de 2023">
+                        </div>
+                        <div class="mb-4">
+                            <label for="comunicadoMensaje" class="fw-bold mb-2">Comunicado</label>
+                            <textarea class="form-control" id="comunicadoMensaje" rows="5"
+                                placeholder="Escribe tu comunicado...">Os comunico que para presentaros al examen práctico debéis de realizar el pago en la autoescuela antes del día 25 de enero de 2023. Gracias.</textarea>
+                        </div>
+                    </form>
+                    <div class="d-flex justify-content-center mb-3 g-2">
+                        <button id="botonGuardarComunicado" class="boton">Guardar cambios</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
