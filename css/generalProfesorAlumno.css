@@ -50,3 +50,35 @@ table tr {
 .comunicados {
     border-left: 5px solid #5499C7;
 }
+
+
+
+/* Iconos */
+.iconos-tabla {
+    width: 30px;
+    height: 30px;
+}
+
+.i-trash {
+    color: red;
+}
+
+.i-finalizado {
+    color: green;
+}
+
+.i-finalizado:hover {
+    color: lightseagreen;
+}
+
+.i-edit {
+    color: darkorchid;
+}
+
+.i-edit:hover {
+    color: peru;
+}
+
+.i-reserva {
+    color: limegreen;
+}
