@@ -70,9 +70,9 @@ a.dropdown-item:active {
     background-color: transparent;
 }
 
-.dropdown-toggle::after {
+/* .dropdown-toggle::after {
     content: none;
-}
+} */
 
 @media (max-width: 992px) {
 

@@ -33,18 +33,18 @@ body {
 }
 
 /* Tablas */
-
-table {
-    border-collapse: separate;
-    border: 5px solid black;
+thead {
+    background-color: #5499C7;
+    color: white;
+    height: 50px;
 }
 
 table th,
 table tr {
+    text-align: left;
     vertical-align: middle;
-    width: 20%;
-    overflow: auto;
 }
+  
 
 /* Comunicados */
 .comunicados {
