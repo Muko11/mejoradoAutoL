@@ -3,7 +3,7 @@
 /* Margenes body y contenedor panelContenido */
 
 body {
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .panelContenido {
@@ -67,18 +67,18 @@ table tr {
     color: green;
 }
 
-.i-finalizado:hover {
+/* .i-finalizado:hover {
     color: lightseagreen;
-}
+} */
 
 .i-edit {
     color: darkorchid;
 }
 
-.i-edit:hover {
+/* .i-edit:hover {
     color: peru;
 }
-
+ */
 .i-reserva {
     color: limegreen;
 }

@@ -96,13 +96,15 @@
 } */
 
 .card-body {
-    background-color: #7DCEA0;
+    background-color: indianred;
     border-radius: 5px;
 }
 
 .card-body:hover {
-    background: lightsalmon;
+    color: black;
+    background: white;
     transition: 0.5s;
+    border: 1px solid #5499C7;
 }
 
 
@@ -112,6 +114,11 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.card-body:hover>.img-tarjeta {
+    transition: 0.5s;
+    background-color: #5499C7;
 }
 
 .cards-wrapper {
