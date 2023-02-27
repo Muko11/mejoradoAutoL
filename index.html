@@ -429,9 +429,13 @@
                     <a href="#" data-bs-toggle="modal" data-bs-target="#modalRegistro">¿No tienes cuenta? Crea una
                         cuenta</a>
                     <form id="formulario-login">
-                        <div class="form-floating mt-3 mb-3">
+                        <!-- <div class="form-floating mt-3 mb-3">
                             <input type="text" class="form-control" id="loginUsuario" placeholder="Nombre de usuario">
                             <label for="loginUsuario">Nombre de usuario</label>
+                        </div> -->
+                        <div class="form-floating mt-3 mb-3">
+                            <input type="email" class="form-control" id="loginCorreo" placeholder="Correo electrónico">
+                            <label for="loginCorreo">Correo electrónico</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="password" class="form-control" id="loginPassword" placeholder="Contraseña">
@@ -463,29 +467,32 @@
                         sesión</a>
                     <form id="formulario-registro">
                         <div class="form-floating mt-3 mb-3">
-                            <input type="text" class="form-control" id="registroNombre"
-                                placeholder="Nombre y apellidos">
-                            <label for="registroNombre">Nombre y apellidos</label>
+                            <input type="text" class="form-control" id="registroNombre" placeholder="Nombre">
+                            <label for="registroNombre">Nombre</label>
                         </div>
-                        <div class="form-floating mb-3">
+                        <div class="form-floating mt-3 mb-3">
+                            <input type="text" class="form-control" id="registroApellido" placeholder="Apellidos">
+                            <label for="registroApellido">Apellidos</label>
+                        </div>
+                        <!-- <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="registroUsuario"
                                 placeholder="Nombre de usuario">
                             <label for="registroUsuario">Nombre de usuario</label>
-                        </div>
-                        <!--                         <div class="form-floating mb-3">
+                        </div> -->
+                        <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="registroEmail"
                                 placeholder="nombre@ejemplo.com">
-                            <label for="registroEmail">Email</label>
-                        </div> -->
+                            <label for="registroEmail">Correo electrónico</label>
+                        </div>
                         <div class="form-floating mb-3">
                             <input type="password" class="form-control" id="registroPassword" placeholder="Contraseña">
                             <label for="registroPassword">Contraseña</label>
                         </div>
-                        <div class="form-floating mb-3">
+                        <!-- <div class="form-floating mb-3">
                             <input type="password" class="form-control" id="registroRepetirPassword"
                                 placeholder="Repetir contraseña">
                             <label for="registroRepetirPassword">Repetir contraseña</label>
-                        </div>
+                        </div> -->
                         <div class="mb-3">
                             <input type="checkbox" id="registroAcepto">
                             <label for="registroAcepto">Acepto los términos de privacidad</label>
