@@ -115,7 +115,7 @@
 
                                 <h4 class="mb-4">Datos de la autoescuela</h4>
                                 <form>
-                                    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3">
+                                    <div class="row row-cols-1 row-cols-md-1">
                                         <div class="mb-4">
                                             <label for="nombreAutoescuela" class="fw-bold mb-2">Nombre de la
                                                 autoescuela</label>
@@ -130,8 +130,8 @@
                                         <div class="mb-4">
                                             <label for="practicaAutoescuela" class="fw-bold mb-2">Precio por clase
                                                 práctica</label>
-                                            <input type="number" class="form-control" id="practicaAutoescuela"
-                                                value="25.00" step=".01" disabled>
+                                            <input type="text" class="form-control" id="practicaAutoescuela"
+                                                value="25.00€" step=".01" disabled>
                                         </div>
                                     </div>
                                 </form>
@@ -202,7 +202,8 @@
                                             </select>
                                         </div>
                                         <div class="mb-4">
-                                            <label for="tipoPractica" class="fw-bold mb-2">Filtrar por tipo de práctica</label>
+                                            <label for="tipoPractica" class="fw-bold mb-2">Filtrar por tipo de
+                                                práctica</label>
                                             <select class="form-control" id="tipoPractica">
                                                 <option value="">Selecciona un tipo de práctica</option>
                                                 <option value="">AM</option>
@@ -324,11 +325,19 @@
                                 </div>
 
 
-                                <h4 class="mb-4">Historial de prácticas realizadas</h4>
+                                <h4 class="mb-4">Calcular precio de prácticas realizadas</h4>
 
-                                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                <!--                                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
                                     <strong>¡Importante!</strong> Recuérdale a tu profesor que al finalizar la práctica
                                     debe marcar como finalizada la práctica.
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Close"></button>
+                                </div> -->
+
+
+                                <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                                    Puedes calcular el precio que tendrías que pagar por las prácticas introduciendo un
+                                    número de prácticas
                                     <button type="button" class="btn-close" data-bs-dismiss="alert"
                                         aria-label="Close"></button>
                                 </div>
@@ -339,19 +348,22 @@
                                             <label for="practicaCompletada" class="fw-bold mb-2">Prácticas
                                                 completadas</label>
                                             <input type="number" class="form-control" id="practicaCompletada"
-                                                placeholder="Ninguna" value="8" disabled>
+                                                placeholder="Ninguna" value="">
                                         </div>
                                         <div class="mb-4">
                                             <label for="practicaAutoescuela" class="fw-bold mb-2">Precio por clase
                                                 práctica</label>
-                                            <input type="number" class="form-control" id="practicaAutoescuelaHistorial"
-                                                value="25.00" step=".01" disabled>
+                                            <input type="text" class="form-control" id="practicaAutoescuelaHistorial"
+                                                value="25.00€" step=".01" disabled>
                                         </div>
                                         <div class="mb-4">
                                             <label for="totalPracticas" class="fw-bold mb-2">Precio total de las
                                                 prácticas</label>
-                                            <input type="number" class="form-control" id="totalPracticas" value="200"
-                                                disabled>
+                                            <input type="text" class="form-control" id="totalPracticas" placeholder="0€"
+                                                value="" disabled>
+                                        </div>
+                                        <div>
+                                            <input class="boton" type="submit" value="Calcular">
                                         </div>
                                     </div>
                                 </form>
