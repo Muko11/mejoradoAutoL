@@ -55,6 +55,12 @@
     background: rgba(65, 68, 66, 0.9);
 }
  */
+
+.dropdown-menu {
+    border: 1px solid white;
+    border-radius: 0;
+}
+
 .dropdown-item {
     color: white;
     font-weight: bold;
@@ -67,7 +73,7 @@ a.dropdown-item:active {
 
 .dropdown-item:hover {
     color: #5499C7;
-    background-color: transparent;
+    background-color: white;
 }
 
 /* .dropdown-toggle::after {
