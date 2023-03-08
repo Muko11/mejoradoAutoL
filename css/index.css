@@ -48,6 +48,10 @@
     font-size: 24px;
 }
 
+.btn-portada {
+    box-shadow: 5px 6px 8px 3px rgb(0, 0, 0, .8);
+}
+
 @media (max-width: 992px) {
     .portada .container {
         padding-top: 62px;
@@ -99,12 +103,14 @@
     background-color: indianred;
     border-radius: 5px;
     transition: all 0.5s ease;
+    box-shadow: 5px 6px 8px 3px rgb(0, 0, 0, .5);
 }
 
 .card-body:hover {
     color: black;
     background: white;
     border: 1px solid #5499C7;
+    box-shadow: 5px 6px 8px 3px rgba(79, 133, 250, 0.5);
 }
 
 
@@ -169,6 +175,6 @@
     .servicios {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 15%;
+        padding: 9%;
     }
 }

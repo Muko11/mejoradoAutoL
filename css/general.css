@@ -80,6 +80,16 @@ a.dropdown-item:active {
     content: none;
 } */
 
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        display: flex !important;
+        justify-content: space-between;
+    }
+}
+
+
 @media (max-width: 992px) {
 
     .toogle-logo,
@@ -99,7 +109,7 @@ a.dropdown-item:active {
 
     .menu-grid {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .navbar-nav .contenido-menu .nav-link.active {
@@ -148,6 +158,15 @@ i:hover {
     color: #5499C7;
 }
 
+@media (max-width: 992px) {
+
+    .iconos-menu {
+        width: 54px;
+        height: 54px;
+    }
+
+}
+
 /* Botones */
 
 .boton {
@@ -156,6 +175,7 @@ i:hover {
     text-decoration: none;
     padding: 12px 36px;
     border: 0;
+    box-shadow: 4px 4px 6px rgb(0, 0, 0, .4);
 }
 
 .boton:hover {

@@ -97,6 +97,7 @@ table tr {
     text-decoration: none;
     padding: 12px 36px;
     border: 0;
+    box-shadow: 4px 4px 6px rgb(0, 0, 0, .4);
 }
 
 .boton-borrar:hover {
