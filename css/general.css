@@ -116,6 +116,9 @@ a.dropdown-item:active {
         padding: 10px;
     }
 
+    .navbar-nav .dropdown-menu {
+        margin-left: 15px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -126,6 +129,10 @@ a.dropdown-item:active {
         grid-template-columns: 1fr;
         margin: 0 auto;
         text-align: center;
+    }
+
+    .toogle-usuario {
+        margin-top: 20px;
     }
 
 }
