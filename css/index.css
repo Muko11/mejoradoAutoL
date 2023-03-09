@@ -146,13 +146,13 @@
         padding: 2%;
     }
 
-    .contenedor-tarjetas {
+/*     .contenedor-tarjetas {
         display: none;
     }
 
     .contenedor-tarjetas-carousel {
         display: block;
-    }
+    } */
 }
 
 @media (min-width: 768px) {
@@ -184,6 +184,6 @@
 .formulario-contacto {
     padding: 10px;
     border-left: 5px solid #5499C7;
-    background-color: lightblue;
+    background-color: ghostwhite;
     border-radius: 5px;
 }
