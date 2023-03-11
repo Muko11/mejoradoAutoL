@@ -94,10 +94,11 @@
 
 /* Tarjetas */
 
+
 /* .tarjeta {
     border: 2px solid #4A235A;
     border-radius: 5px;
-} */
+}
 
 .card-body {
     background-color: indianred;
@@ -137,7 +138,7 @@
 
 .contenedor-tarjetas-carousel {
     display: none;
-}
+} */
 
 @media (max-width: 992px) {
     .tarjeta {
@@ -146,7 +147,7 @@
         padding: 2%;
     }
 
-/*     .contenedor-tarjetas {
+    /*     .contenedor-tarjetas {
         display: none;
     }
 
@@ -180,10 +181,22 @@
 }
 
 
+/* Formulario Crear Autoescuela */
+
+.contenedor-autoescuela {
+    background-image: url("../imagenes/fondoFormulario.svg");
+    background-size: cover;
+    position: relative;
+}
+
+#formulario-autoescuela {
+    box-shadow: 11px 13px 20px 7px rgb(0, 0, 0, 0.8);
+    background-color: white;
+}
+
 /* Formulario Contacto */
 .formulario-contacto {
-    padding: 10px;
+    padding: 15px;
+    border-radius: 3px;
     border-left: 5px solid #5499C7;
-    background-color: ghostwhite;
-    border-radius: 5px;
 }
